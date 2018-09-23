@@ -1,0 +1,23 @@
+{
+  "name": "meanapp",
+  "version": "1.0.0",
+  "description": "middleman for shiftpicker application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "bluebird": "3.5.1",
+    "body-parser": "1.17.2",
+    "cors": "2.8.3",
+    "express": "*",
+    "jsonwebtoken": "7.4.1",
+    "mongoose": "*",
+    "passport": "0.3.2",
+    "passport-jwt": "2.2.1"
+  },
+  "author": "Allen Li",
+  "license": "ISC"
+}
